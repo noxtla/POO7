@@ -1,21 +1,36 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pkg7poo;
 
-/**
- *
- * @author NOXTLA
- */
+import java.util.Scanner;
+
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+       Scanner entrada = new Scanner(System.in);
+       
+       
+       Cliente clientes;
+       
+       String nombre,apellidos,DNI;
+       int numeroDeCuenta;
+       double saldo;
+       
+       
+           System.out.print("\n Nombre");
+           nombre = entrada.nextLine();
+           System.out.print("\n Apellido");
+           apellidos = entrada.nextLine();
+           System.out.print("\n DNI");
+           DNI = entrada.nextLine();
+           System.out.print("\n Numero de cuentas");
+           numeroDeCuenta = entrada.nextInt();
+       
+       
+       Cuenta cuentas[];
+       cuentas =  new Cuenta[numeroDeCuenta];
+       
     }
     
 }
