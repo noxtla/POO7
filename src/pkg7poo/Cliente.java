@@ -33,13 +33,13 @@ public class Cliente {
     }
     
     
-    public void retirarSaldocliente(int n, double cantidad){
+    /*public void retirarSaldocliente(int n, double cantidad){
         cuentas[n].retirarDinero(cantidad);
     }
     
     public void ingresarSaldoCliente (int n, double cantidad){
         cuentas[n].ingresarDinero(cantidad);
-    }
+    }*/
     
     
 }

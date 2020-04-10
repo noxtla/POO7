@@ -27,7 +27,7 @@ public class Main {
            System.out.print("\n Numero de cuentas");
            numeroDeCuenta = entrada.nextInt();
        
-       
+       ///Aqui deberia haber un for
        Cuenta cuentas[];
        cuentas =  new Cuenta[numeroDeCuenta];
        
